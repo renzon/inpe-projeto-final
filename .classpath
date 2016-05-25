@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/aomrolemapper.jar"/>
+	<classpathentry kind="lib" path="lib/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/classmate-1.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-validator-5.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-validator-annotation-processor-5.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-validator-cdi-5.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="lib/javassist.jar"/>
+	<classpathentry kind="lib" path="lib/javax.el-2.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/javax.el-api-2.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-logging-3.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/scannotation-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
