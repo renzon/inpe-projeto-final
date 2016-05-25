@@ -45,8 +45,9 @@ public class TesteValidacaoPessoaTarefa1 {
 
 	@Test
 	public void validaPessoaBase() throws Exception{
+		boolean validarEntidadePessoa = validador.validarEntidadePessoa(pessoa);
 		assertTrue("A pessoa definida como base deve possuir todas as informações corretas",
-				validador.validarEntidadePessoa(pessoa));
+				validarEntidadePessoa);
 	}
 	
 	@Test
@@ -74,8 +75,9 @@ public class TesteValidacaoPessoaTarefa1 {
 	@Test
 	public void alturaMuitoGrande() throws Exception{
 		pessoa.setProperty("altura", 300);
+		boolean validarEntidadePessoa = validador.validarEntidadePessoa(pessoa);
 		assertFalse("A altura deve ser menor ou igual que 215",
-				validador.validarEntidadePessoa(pessoa));
+				validarEntidadePessoa);
 	}
 	
 	@Test
